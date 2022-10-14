@@ -1,3 +1,26 @@
 body{
 background-color: orange;
 }
+
+.text-columns{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid red;
+}
+
+/* clear fix */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columns{
+    float: left;
+    width: 32%;
+    padding: 10px;
+}
+
+.column2{
+    
+}
